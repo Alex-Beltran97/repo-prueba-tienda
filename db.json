@@ -1,0 +1,39 @@
+{
+  "customers": [
+    {
+      "idCustomer": 1,
+      "nameCustomer": "Pepito Antonio"
+    },
+    {
+      "idCustomer": 2,
+      "nameCustomer": "Jose María"
+    }
+  ],
+  "products": [
+    {
+      "idProduct": 1,
+      "productName": "Jalea de Naranja",
+      "price": 1000,
+      "amount": 5
+    },
+    {
+      "idProduct": 2,
+      "productName": "Jalea de Limón",
+      "price": 2000,
+      "amount": 4
+    }
+  ],
+  "invoce": [
+    {
+      "invoceDate": "2022-09-29",
+      "idCustomer": 1,
+      "invoceDetail": [
+        {
+          "idProduct": 1,
+          "price": 1000,
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}
